@@ -1,0 +1,57 @@
+Quão alto uma pessoa precisa saltar para permanecer no ar por um segundo? Neste vídeo, resolvemos essa questão utilizando as equações da cinemática do movimento vertical sob a ação da gravidade. A análise permite relacionar o tempo total de voo à altura máxima atingida e determinar a elevação necessária para diferentes tempos de permanência no ar.
+
+O problema também está relacionado ao conceito de hang time, conhecido no basquete pelos saltos de Michael Jordan. Além da resolução matemática, comparamos os resultados com os de marcas registradas em competições de salto vertical. A fundamentação utiliza a cinemática elementar apresentada por Halliday, Resnick e Walker [1], Serway e Jewett [2], Tipler e Mosca [3] e Nussenzveig [4].
+
+Consideremos um salto vertical, desprezando a resistência do ar e supondo que o centro de massa retorne à altura de onde partiu. A posição vertical em função do tempo é descrita por:
+
+y(t) = v₀t − ½gt²
+
+Nessa expressão, v₀ representa a velocidade vertical inicial, g é a aceleração da gravidade e t é o tempo decorrido desde a decolagem. Se T é o tempo total de voo, o retorno à altura inicial, y(T) = 0, fornece:
+
+v₀ = gT/2
+
+O movimento apresenta simetria temporal: o tempo de subida é igual ao de descida. A altura máxima ocorre no instante T/2. Substituindo esse tempo na equação da posição, obtemos:
+
+h(T) = gT²/8
+
+Para T = 1 s e g = 9,81 m/s², o resultado é:
+
+h ≈ 1,23 m
+
+Portanto, permanecer um segundo no ar exige que o centro de massa se eleve cerca de 1,23 m em relação à posição inicial. Como a altura cresce com o quadrado do tempo de voo, 0,5 s exige 0,31 m; 1 s, 1,23 m; e 2 s, 4,91 m.
+
+Como isso se compara aos saltos registrados em competições?
+
+Em 2022, Darius Clark registrou 1,27 m (50 polegadas) no Guinness World Records, na categoria de salto vertical com corrida de aproximação [5]. Em 2026, Ethan Pimstone alcançou cerca de 1,33 m (52,5 polegadas), e Clark atingiu 1,35 m (53 polegadas) no Fanatics Fest, em Nova York. A cobertura do evento também atribuiu a Clark um tempo de voo de 1,017 s [6].
+
+Essas marcas são compatíveis com tempos de voo da ordem de um segundo. Entretanto, os protocolos de medição variam entre as competições, e a altura registrada em testes esportivos não corresponde necessariamente à elevação do centro de massa calculada pelo modelo.
+
+E Michael Jordan?
+
+No Slam Dunk Contest de 1988, em Chicago, Jordan realizou uma enterrada a partir da região da linha do lance livre e recebeu a pontuação máxima [7]. A impulsão de 48 polegadas (1,22 m), frequentemente atribuída a ele, não foi medida oficialmente naquele salto. Também há estimativas de cerca de 0,92 s de permanência no ar, que devem ser consideradas com cautela. Seus saltos combinavam impulsão vertical, deslocamento horizontal e controle corporal, produzindo a impressão de suspensão. Durante o voo, contudo, o centro de massa permanecia sujeito à aceleração da gravidade.
+
+Neste vídeo, apresento a resolução do problema, desde as equações do movimento até o cálculo da altura máxima, com exemplos numéricos e comparações com marcas esportivas. O repositório contém o roteiro e os slides [8], além de uma apostila ilustrada em PDF [9].
+
+REFERÊNCIAS
+
+[1] Halliday, D., Resnick, R., & Walker, J. Fundamentos de Física. Vol. 1: Mecânica. LTC.
+[2] Serway, R. A., & Jewett, J. W. Princípios de Física. Vol. 1. Cengage Learning.
+[3] Tipler, P. A., & Mosca, G. Física para Cientistas e Engenheiros. Vol. 1. LTC.
+[4] Nussenzveig, H. M. Curso de Física Básica. Vol. 1: Mecânica. Blucher.
+[5] Guinness World Records. Highest vertical leap (running start). Darius Clark, 2022.
+[https://www.guinnessworldrecords.com/world-records/95867-highest-vertical-leap-running-start](https://www.guinnessworldrecords.com/world-records/95867-highest-vertical-leap-running-start)
+[6] Dunking News. Darius Clark Reclaims the Vertical Jump World Record With Historic 53-Inch Leap at Fanatics Fest NYC (2026).
+[https://dunkingnews.com/darius-clark-53-inch-vertical-world-record-fanatics-fest-2026/](https://dunkingnews.com/darius-clark-53-inch-vertical-world-record-fanatics-fest-2026/)
+[7] NBA. Top Moments: Michael Jordan, Dominique Wilkins duel in 1988 dunk contest (2021).
+[https://www.nba.com/news/history-top-moments-jordan-wilkins-1988-dunk](https://www.nba.com/news/history-top-moments-jordan-wilkins-1988-dunk)
+[8] Santos-Pereira, O. L. Física do salto vertical. Materiais didáticos, GitHub (2026).
+[https://github.com/ozsp12/youtube_dr_olsp/tree/main/videos/043_phys_mechanics_jump_time_in_air](https://github.com/ozsp12/youtube_dr_olsp/tree/main/videos/043_phys_mechanics_jump_time_in_air)
+[9] Santos-Pereira, O. L. Física do salto vertical: apostila ilustrada (2026).
+[https://github.com/ozsp12/youtube_dr_olsp/blob/main/videos/043_phys_mechanics_jump_time_in_air/apostila.pdf](https://github.com/ozsp12/youtube_dr_olsp/blob/main/videos/043_phys_mechanics_jump_time_in_air/apostila.pdf)
+
+SOBRE O AUTOR
+
+Osvaldo L. Santos-Pereira. Doutor em Física, Instituto de Física, Universidade Federal do Rio de Janeiro (UFRJ).
+Página acadêmica: [https://ozsp12.github.io/](https://ozsp12.github.io/)
+ORCID: [https://orcid.org/0000-0003-2231-517X](https://orcid.org/0000-0003-2231-517X)
+YouTube: [https://www.youtube.com/@ozlsp12](https://www.youtube.com/@ozlsp12)
