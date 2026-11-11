@@ -6,4 +6,4 @@ The simulation illustrates wave-packet dispersion, reflection, transmission, and
 
 [Watch the lesson on YouTube](https://www.youtube.com/watch?v=z7aMYTNa7ms)
 
-Return to the [repository contents](../CONTENTS.md).
+Return to the [repository contents](../../README.md#repository-organisation).

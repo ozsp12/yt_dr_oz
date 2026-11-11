@@ -1,28 +1,30 @@
-# Análise rápida de precificação e elasticidade
+# Quick Pricing and Elasticity Analysis
 
-Material da videoaula **[“Quick and dirty”: análise de dados com Python — precificação e elasticidade](https://youtu.be/Vn45DCpdXNw)**.
+Companion material for the video lesson **["Quick and dirty": data analysis with Python — pricing and elasticity](https://youtu.be/Vn45DCpdXNw)**.
 
-O notebook [`precificacao_elasticidade.ipynb`](precificacao_elasticidade.ipynb) constrói dados sintéticos, agrega observações em faixas, visualiza preço e captação e ajusta aproximações lineares e quadráticas. O objetivo é demonstrar uma esteira exploratória curta e reproduzível.
+The notebook [`precificacao_elasticidade.ipynb`](precificacao_elasticidade.ipynb) generates synthetic data, aggregates observations into bins, visualizes price and customer acquisition, and fits linear and quadratic approximations. The aim is to demonstrate a short, reproducible exploratory workflow.
 
-## Interpretação correta
+## Interpretation
 
-Na teoria econômica, a elasticidade-preço da demanda é definida por
+In economic theory, the price elasticity of demand is defined as
 
 \[
 \varepsilon_{Q,P}=\frac{\partial Q}{\partial P}\frac{P}{Q}.
 \]
 
-No conjunto sintético do notebook, a coluna `Elasticidade` é construída por uma função escolhida para fins didáticos. Ela é, rigorosamente, um **índice sintético**, não uma elasticidade estimada a partir de variação observacional ou experimental. Da mesma forma, a curva chamada no código de `Laffer` é apenas uma analogia visual de captação; a designação clássica de curva de Laffer refere-se à relação entre alíquota tributária e receita fiscal.
+In the notebook's synthetic dataset, the `Elasticidade` column is constructed using a function chosen for teaching purposes. Strictly speaking, it is a **synthetic index**, rather than an elasticity estimated from observational or experimental variation. Similarly, the curve called `Laffer` in the code is a visual analogy for customer acquisition; the classical Laffer curve refers to the relationship between tax rates and tax revenue.
 
-## Limites analíticos
+## Analytical limitations
 
-Associação entre preço e demanda pode refletir segmentação, promoções, sazonalidade, seleção de clientes e simultaneidade. Uma análise aplicada deve definir o estimando, controlar confundidores relevantes e preferir experimentos, quase-experimentos ou modelos causais adequados. O notebook não substitui esse desenho.
+An association between price and demand may reflect segmentation, promotions, seasonality, customer selection, and simultaneity. An applied analysis should define the estimand, control for relevant confounders, and favor experiments, quasi-experiments, or appropriate causal models. The notebook does not replace that research design.
 
-## Execução
+## Running the notebook
+
+From the repository root:
 
 ```bash
 conda activate ai-data-citizen
-jupyter lab quick_dirty_analytics/precificacao_elasticidade.ipynb
+jupyter lab data_science/quick_dirty_analytics/precificacao_elasticidade.ipynb
 ```
 
-Todos os dados são gerados localmente com semente fixa; nenhum dado comercial real é utilizado.
+All data are generated locally with a fixed seed; no real commercial data are used.

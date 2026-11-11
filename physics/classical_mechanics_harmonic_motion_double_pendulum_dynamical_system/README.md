@@ -9,4 +9,4 @@ The double pendulum is a standard nonlinear mechanical system in which determini
 
 The simulation illustrates sensitivity to initial conditions; it does not by itself estimate Lyapunov exponents or prove chaotic dynamics. Research use would require solver-tolerance tests, convergence analysis, energy-drift inspection, and comparison with a structure-preserving integrator.
 
-[Return to the repository contents](../CONTENTS.md).
+[Return to the repository contents](../../README.md#repository-organisation).

@@ -29,15 +29,15 @@ The following examples provide entry points into the collection. The subject dir
 | Nonlinear dynamics | [Double-pendulum model and animations](physics/classical_mechanics_harmonic_motion_double_pendulum_dynamical_system/) |
 | Quantum wave-packet evolution | [Wave packet interacting with a step potential](physics/quantum_mechanics_step_barrier_tunneling/) |
 | General relativity | [Introduction to warp-drive spacetimes](physics/warp_drive_introduction/) |
-| Algebraic equations | [Tenth-degree equations and cyclotomic polynomials](maths/algebra_tenth_degree_cyclotonic_polynomials/) |
+| Algebraic equations | [Tenth-degree equations and cyclotomic polynomials](maths/algebra_tenth_degree_cyclotomic_polynomials/) |
 | Inequalities | [Cauchy–Schwarz inequality](maths/analysis_inequalities_cauchy_schwarz/) |
 | Trigonometry | [ENEM tangent-function problem](maths/geometry_enem_2025_question_160/) |
-| Practical data analysis | [Python, SQL, and DAX fast track](data_science/aula_trilha_rapida_analista_dados/) |
+| Practical data analysis | [Python, SQL, and DAX fast track](data_science/data_analyst_fast_track/) |
 | Exploratory analysis | [Pricing examples with synthetic data](data_science/quick_dirty_analytics/) |
 | Data visualisation | [Longitudinal data and animated time series](data_science/longitudinal_data_visualization/) |
-| Symbolic computation | [Introduction to SymPy](data_science/computing_sympy_algebra_simbolica/) |
-| Python programming | [Syntax, operations, and basic commands](scientific_computing/programming_aula_01_python_do_zero/) |
-| Computational performance | [pandas and NumPy comparison](scientific_computing/algorithms_analise_complexidade_pandas_vs_numpy/) |
+| Symbolic computation | [Introduction to SymPy](data_science/computing_sympy_symbolic_algebra/) |
+| Python programming | [Syntax, operations, and basic commands](scientific_computing/programming_lesson_01_python_from_scratch/) |
+| Computational performance | [pandas and NumPy comparison](scientific_computing/algorithms_complexity_analysis_pandas_vs_numpy/) |
 | Artificial intelligence | [Introduction to AI agents](scientific_computing/agents_artificial_intelligence_agents/) |
 | Short-form physics | [Klein–Gordon equation](shorts/phys_quantum_mech_klein_gordon_equation/) |
 

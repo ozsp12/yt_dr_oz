@@ -18,4 +18,4 @@ This directory contains the mathematical notes, computational visualization, fig
 
 The files are retained together because the directory serves as the public companion archive for the video. The notebook is the principal editable computational document; the PDF, figures, and video are publication and presentation outputs.
 
-[Return to the repository contents](../CONTENTS.md#enem-2025-tangent-function).
+[Return to the repository contents](../../README.md#selected-starting-points).
