@@ -1,4 +1,4 @@
-# Dr. Oz: materiais complementares do YouTube
+# Materiais complementares do YouTube
 
 Notas de aula, problemas resolvidos, notebooks computacionais e recursos audiovisuais do [canal Dr. Oz no YouTube](https://www.youtube.com/@ozlsp12), de **Dr. Osvaldo L. Santos-Pereira**.
 
@@ -40,25 +40,6 @@ Os exemplos a seguir oferecem pontos de entrada para a coleção. As pastas das 
 | Desempenho computacional | [Comparação entre pandas e NumPy](computacao_cientifica/algoritmos_analise_complexidade_pandas_vs_numpy/) |
 | Inteligência artificial | [Introdução aos agentes de IA](computacao_cientifica/agentes_inteligencia_artificial/) |
 | Física em vídeos curtos | [Equação de Klein–Gordon](videos_curtos/fisica_mecanica_quantica_equacao_klein_gordon/) |
-
-## Como utilizar os materiais
-
-Para leitura e visualização, abra a pasta da área desejada e escolha uma aula. Consulte o README local quando disponível; algumas aulas também apresentam um link direto para o vídeo correspondente. PDFs, apresentações e mídias exportadas podem ser baixados individualmente.
-
-Para trabalhar com uma cópia local da coleção:
-
-```bash
-git clone --depth 1 https://github.com/ozsp12/yt_dr_oz.git
-cd yt_dr_oz
-```
-
-Abra os notebooks Python no JupyterLab ou em outro editor de notebooks com um kernel Python 3. Consulte as células de importação e as notas de cada notebook para identificar suas dependências. Quando um notebook utilizar caminhos relativos, execute-o a partir da própria pasta para que os conjuntos de dados e as figuras sejam encontrados. As dependências variam por aula; o repositório ainda não fornece uma especificação única de ambiente para toda a coleção.
-
-As apresentações editáveis utilizam o formato `.pptx`, e o exemplo de Power BI inclui um arquivo `.pbix`. Fontes LaTeX e PDFs compilados estão disponíveis para alguns temas. Os arquivos fornecidos em cada pasta determinam quais partes de uma aula podem ser editadas ou recalculadas.
-
-## Correções e contribuições
-
-Para comunicar um problema matemático, computacional ou editorial, [abra uma issue](https://github.com/ozsp12/yt_dr_oz/issues) indicando a pasta da aula e a equação, célula do notebook, slide ou arquivo correspondente. Para problemas computacionais, inclua os dados de entrada e as informações sobre o ambiente necessários para reproduzir o resultado. Propostas de correção também podem ser enviadas por pull request.
 
 ## Autor
 
