@@ -1,71 +1,71 @@
-# Dr. Oz: YouTube Companion Materials
+# Dr. Oz: materiais complementares do YouTube
 
-Teaching notes, worked problems, computational notebooks, and audiovisual assets for the [Dr. Oz YouTube channel](https://www.youtube.com/@ozlsp12), by **Dr. Osvaldo L. Santos-Pereira**.
+Notas de aula, problemas resolvidos, notebooks computacionais e recursos audiovisuais do [canal Dr. Oz no YouTube](https://www.youtube.com/@ozlsp12), de **Dr. Osvaldo L. Santos-Pereira**.
 
-This repository brings together material on physics, mathematics, data science, and scientific computing. It supports the study of the topics presented in the videos and preserves the documents, calculations, figures, and production files associated with individual lessons. Materials are available in Portuguese and English, depending on the topic.
+Este repositório reúne materiais de física, matemática, ciência de dados e computação científica. Seu objetivo é apoiar o estudo dos temas apresentados nos vídeos e preservar os documentos, cálculos, figuras e arquivos de produção de cada aula. Os materiais estão disponíveis em português e inglês, conforme o tema.
 
-## Repository organisation
+## Organização do repositório
 
-The collection is organised by subject, with individual folders for lessons, problems, and demonstrations.
+A coleção está organizada por área, com pastas individuais para aulas, problemas e demonstrações.
 
-| Directory | Contents |
+| Pasta | Conteúdo |
 |---|---|
-| [`physics/`](physics/) | Classical mechanics, oscillations, quantum mechanics, and introductory material on warp-drive spacetimes. |
-| [`maths/`](maths/) | Algebra, number theory, calculus, inequalities, geometry, and worked examination problems. |
-| [`data_science/`](data_science/) | Data analysis, visualisation, symbolic computation, and examples using Python, SQL, DAX, and Power BI. |
-| [`scientific_computing/`](scientific_computing/) | Python fundamentals, computational performance, and educational material on artificial intelligence agents. |
-| [`shorts/`](shorts/) | Short-form lessons and visual material on mathematics, physics, probability, and combinatorics. |
+| [`fisica/`](fisica/) | Mecânica clássica, oscilações, mecânica quântica e introdução aos espaços-tempos com motores de dobra. |
+| [`matematica/`](matematica/) | Álgebra, teoria dos números, cálculo, desigualdades, geometria e questões de exames resolvidas. |
+| [`ciencia_de_dados/`](ciencia_de_dados/) | Análise e visualização de dados, computação simbólica e exemplos com Python, SQL, DAX e Power BI. |
+| [`computacao_cientifica/`](computacao_cientifica/) | Fundamentos de Python, desempenho computacional e material didático sobre agentes de inteligência artificial. |
+| [`videos_curtos/`](videos_curtos/) | Aulas curtas e materiais visuais sobre matemática, física, probabilidade e combinatória. |
 
-Depending on the lesson, a folder may contain PDF notes, PowerPoint presentations, LaTeX sources, Jupyter notebooks, datasets, narration scripts, figures, audio, and rendered animations or videos. Some topics include separate language versions and assets prepared for horizontal, vertical, or square formats.
+Conforme a aula, uma pasta pode conter notas em PDF, apresentações do PowerPoint, fontes LaTeX, notebooks Jupyter, conjuntos de dados, roteiros de narração, figuras, áudios e animações ou vídeos renderizados. Alguns temas incluem versões em idiomas distintos e recursos preparados para formatos horizontais, verticais ou quadrados.
 
-## Selected starting points
+## Por onde começar
 
-The following examples provide entry points into the collection. The subject directories above contain the remaining material.
+Os exemplos a seguir oferecem pontos de entrada para a coleção. As pastas das áreas acima contêm os demais materiais.
 
-| Topic | Materials |
+| Tema | Materiais |
 |---|---|
-| Conservation of angular momentum | [Spinning-chair demonstration](physics/classical_mechanics_angular_momentum_spinning_chair/) |
-| Coupled motion in classical mechanics | [Block sliding on a moving wedge](physics/classical_mechanics_sliding_wedge_block/) |
-| Nonlinear dynamics | [Double-pendulum model and animations](physics/classical_mechanics_harmonic_motion_double_pendulum_dynamical_system/) |
-| Quantum wave-packet evolution | [Wave packet interacting with a step potential](physics/quantum_mechanics_step_barrier_tunneling/) |
-| General relativity | [Introduction to warp-drive spacetimes](physics/warp_drive_introduction/) |
-| Algebraic equations | [Tenth-degree equations and cyclotomic polynomials](maths/algebra_tenth_degree_cyclotomic_polynomials/) |
-| Inequalities | [Cauchy–Schwarz inequality](maths/analysis_inequalities_cauchy_schwarz/) |
-| Trigonometry | [ENEM tangent-function problem](maths/geometry_enem_2025_question_160/) |
-| Practical data analysis | [Python, SQL, and DAX fast track](data_science/data_analyst_fast_track/) |
-| Exploratory analysis | [Pricing examples with synthetic data](data_science/quick_dirty_analytics/) |
-| Data visualisation | [Longitudinal data and animated time series](data_science/longitudinal_data_visualization/) |
-| Symbolic computation | [Introduction to SymPy](data_science/computing_sympy_symbolic_algebra/) |
-| Python programming | [Syntax, operations, and basic commands](scientific_computing/programming_lesson_01_python_from_scratch/) |
-| Computational performance | [pandas and NumPy comparison](scientific_computing/algorithms_complexity_analysis_pandas_vs_numpy/) |
-| Artificial intelligence | [Introduction to AI agents](scientific_computing/agents_artificial_intelligence_agents/) |
-| Short-form physics | [Klein–Gordon equation](shorts/phys_quantum_mech_klein_gordon_equation/) |
+| Conservação do momento angular | [Demonstração com cadeira giratória](fisica/mecanica_classica_momento_angular_cadeira_giratoria/) |
+| Movimento acoplado em mecânica clássica | [Bloco deslizando sobre uma cunha móvel](fisica/mecanica_classica_bloco_deslizando_cunha/) |
+| Dinâmica não linear | [Modelo e animações do pêndulo duplo](fisica/mecanica_classica_sistema_dinamico_pendulo_duplo/) |
+| Evolução de pacotes de ondas quânticos | [Pacote de ondas interagindo com um potencial degrau](fisica/mecanica_quantica_tunelamento_barreira_degrau/) |
+| Relatividade geral | [Introdução aos espaços-tempos com motores de dobra](fisica/introducao_motor_de_dobra/) |
+| Equações algébricas | [Equações de décimo grau e polinômios ciclotômicos](matematica/algebra_polinomios_ciclotomicos_grau_10/) |
+| Desigualdades | [Desigualdade de Cauchy–Schwarz](matematica/analise_desigualdade_cauchy_schwarz/) |
+| Trigonometria | [Questão do ENEM sobre a função tangente](matematica/geometria_enem_2025_questao_160/) |
+| Análise de dados na prática | [Trilha rápida de Python, SQL e DAX](ciencia_de_dados/trilha_rapida_analista_de_dados/) |
+| Análise exploratória | [Exemplos de precificação com dados sintéticos](ciencia_de_dados/analise_exploratoria_rapida/) |
+| Visualização de dados | [Dados longitudinais e séries temporais animadas](ciencia_de_dados/visualizacao_dados_longitudinais/) |
+| Computação simbólica | [Introdução ao SymPy](ciencia_de_dados/computacao_algebra_simbolica_sympy/) |
+| Programação em Python | [Sintaxe, operações e comandos básicos](computacao_cientifica/programacao_aula_01_python_do_zero/) |
+| Desempenho computacional | [Comparação entre pandas e NumPy](computacao_cientifica/algoritmos_analise_complexidade_pandas_vs_numpy/) |
+| Inteligência artificial | [Introdução aos agentes de IA](computacao_cientifica/agentes_inteligencia_artificial/) |
+| Física em vídeos curtos | [Equação de Klein–Gordon](videos_curtos/fisica_mecanica_quantica_equacao_klein_gordon/) |
 
-## Using the materials
+## Como utilizar os materiais
 
-For reading and viewing, open the relevant subject directory and select a lesson. Consult its local README when available; some lessons also provide a direct link to the corresponding video. PDFs, slides, and exported media can be downloaded individually.
+Para leitura e visualização, abra a pasta da área desejada e escolha uma aula. Consulte o README local quando disponível; algumas aulas também apresentam um link direto para o vídeo correspondente. PDFs, apresentações e mídias exportadas podem ser baixados individualmente.
 
-To work with a local copy of the collection:
+Para trabalhar com uma cópia local da coleção:
 
 ```bash
 git clone --depth 1 https://github.com/ozsp12/yt_dr_oz.git
 cd yt_dr_oz
 ```
 
-Open Python notebooks in JupyterLab or another notebook editor using a Python 3 kernel. Consult each notebook's import cells and accompanying notes for its dependencies. When a notebook uses relative file paths, run it from its own directory so that the accompanying datasets and figures can be found. Dependencies vary by lesson; the repository does not currently provide a single environment specification for the entire collection.
+Abra os notebooks Python no JupyterLab ou em outro editor de notebooks com um kernel Python 3. Consulte as células de importação e as notas de cada notebook para identificar suas dependências. Quando um notebook utilizar caminhos relativos, execute-o a partir da própria pasta para que os conjuntos de dados e as figuras sejam encontrados. As dependências variam por aula; o repositório ainda não fornece uma especificação única de ambiente para toda a coleção.
 
-Editable presentations use the `.pptx` format, and the Power BI example includes a `.pbix` file. LaTeX sources and rendered PDFs are available for selected topics. The files supplied in each folder determine which parts of a lesson can be edited or recomputed.
+As apresentações editáveis utilizam o formato `.pptx`, e o exemplo de Power BI inclui um arquivo `.pbix`. Fontes LaTeX e PDFs compilados estão disponíveis para alguns temas. Os arquivos fornecidos em cada pasta determinam quais partes de uma aula podem ser editadas ou recalculadas.
 
-## Corrections and contributions
+## Correções e contribuições
 
-To report a mathematical, computational, or editorial issue, [open an issue](https://github.com/ozsp12/yt_dr_oz/issues) identifying the lesson folder and the relevant equation, notebook cell, slide, or file. For computational problems, include the input and environment details needed to reproduce the result. Proposed corrections can also be submitted through a pull request.
+Para comunicar um problema matemático, computacional ou editorial, [abra uma issue](https://github.com/ozsp12/yt_dr_oz/issues) indicando a pasta da aula e a equação, célula do notebook, slide ou arquivo correspondente. Para problemas computacionais, inclua os dados de entrada e as informações sobre o ambiente necessários para reproduzir o resultado. Propostas de correção também podem ser enviadas por pull request.
 
-## Author
+## Autor
 
 **Dr. Osvaldo L. Santos-Pereira**
 
-<a href="mailto:olsp@if.ufrj.br">✉</a> **Email:** [olsp@if.ufrj.br](mailto:olsp@if.ufrj.br)  
-<a href="https://ozsp12.github.io/">🌐</a> **Academic webpage:** [https://ozsp12.github.io/](https://ozsp12.github.io/)  
+<a href="mailto:olsp@if.ufrj.br">✉</a> **E-mail:** [olsp@if.ufrj.br](mailto:olsp@if.ufrj.br)  
+<a href="https://ozsp12.github.io/">🌐</a> **Página acadêmica:** [https://ozsp12.github.io/](https://ozsp12.github.io/)  
 <a href="http://lattes.cnpq.br/6730251976463283">🎓</a> **Lattes:** [http://lattes.cnpq.br/6730251976463283](http://lattes.cnpq.br/6730251976463283)  
 <a href="https://orcid.org/0000-0003-2231-517X"><img src="https://cdn.simpleicons.org/orcid/A6CE39" height="22" alt="ORCID" align="absmiddle"></a> **ORCID:** [https://orcid.org/0000-0003-2231-517X](https://orcid.org/0000-0003-2231-517X)  
 <a href="https://scholar.google.com/citations?user=HIZp0X8AAAAJ&amp;hl=en"><img src="https://cdn.simpleicons.org/googlescholar/4285F4" height="22" alt="Google Scholar" align="absmiddle"></a> **Google Scholar:** [https://scholar.google.com/citations?user=HIZp0X8AAAAJ&hl=en](https://scholar.google.com/citations?user=HIZp0X8AAAAJ&hl=en)  
